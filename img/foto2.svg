@@ -1,0 +1,35 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5F3FF"/>
+  <rect x="60" y="60" width="1080" height="780" rx="26" fill="#FFFFFF" stroke="#E9D5FF"/>
+  <rect x="90" y="90" width="1020" height="72" rx="16" fill="#F8FAFC"/>
+  <text x="120" y="136" fill="#111827" font-family="Arial, sans-serif" font-size="32" font-weight="800">Luma</text>
+  <text x="645" y="136" fill="#475569" font-family="Arial, sans-serif" font-size="18">Coleções</text>
+  <text x="760" y="136" fill="#475569" font-family="Arial, sans-serif" font-size="18">Novidades</text>
+  <text x="900" y="136" fill="#475569" font-family="Arial, sans-serif" font-size="18">Sobre</text>
+  <rect x="1010" y="104" width="70" height="42" rx="21" fill="#111827"/>
+  <text x="1033" y="132" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">Cart</text>
+
+  <rect x="90" y="190" width="520" height="510" rx="24" fill="#F3E8FF"/>
+  <text x="120" y="252" fill="#7C3AED" font-family="Arial, sans-serif" font-size="18" font-weight="700">ESTAÇÃO</text>
+  <text x="120" y="325" fill="#111827" font-family="Arial, sans-serif" font-size="58" font-weight="800">Moda</text>
+  <text x="120" y="390" fill="#111827" font-family="Arial, sans-serif" font-size="58" font-weight="800">descolada</text>
+  <text x="120" y="445" fill="#475569" font-family="Arial, sans-serif" font-size="24">Peças premium para o seu estilo cotidiano.</text>
+  <rect x="120" y="490" width="170" height="54" rx="18" fill="#111827"/>
+  <text x="159" y="525" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Comprar</text>
+
+  <rect x="660" y="210" width="390" height="250" rx="24" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <rect x="700" y="250" width="300" height="180" rx="18" fill="#DDD6FE"/>
+  <circle cx="820" cy="320" r="56" fill="#C4B5FD"/>
+  <rect x="745" y="385" width="150" height="18" rx="9" fill="#A78BFA"/>
+  <text x="715" y="470" fill="#111827" font-family="Arial, sans-serif" font-size="26" font-weight="700">Bolsas Modernas</text>
+
+  <rect x="660" y="505" width="180" height="150" rx="18" fill="#111827"/>
+  <text x="690" y="555" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="18" font-weight="700">Novo</text>
+  <text x="690" y="600" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="36" font-weight="800">25%</text>
+  <text x="690" y="632" fill="#D1D5DB" font-family="Arial, sans-serif" font-size="16">OFF</text>
+
+  <rect x="870" y="505" width="180" height="150" rx="18" fill="#F1F5F9"/>
+  <text x="898" y="548" fill="#334155" font-family="Arial, sans-serif" font-size="18" font-weight="700">Entrega</text>
+  <text x="898" y="590" fill="#111827" font-family="Arial, sans-serif" font-size="36" font-weight="800">24h</text>
+  <text x="898" y="625" fill="#64748B" font-family="Arial, sans-serif" font-size="15">em toda região</text>
+</svg>
