@@ -352,6 +352,121 @@ ol {
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.pricing {
+    background: rgba(255, 255, 255, 0.28);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.pricing-heading {
+    max-width: 700px;
+}
+
+.pricing-heading > p {
+    margin-top: 14px;
+    color: var(--muted);
+    font-size: 1.03rem;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 22px;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 24px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    box-shadow: var(--shadow);
+}
+
+.pricing-card-featured {
+    border: 2px solid var(--accent-strong);
+    transform: translateY(-8px);
+}
+
+.pricing-label {
+    align-self: flex-start;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: var(--soft);
+    color: var(--text);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.pricing-card h3 {
+    margin-top: 18px;
+    font-size: 1.45rem;
+    line-height: 1.2;
+}
+
+.pricing-description {
+    min-height: 52px;
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.pricing-price {
+    margin-top: 22px;
+    font-size: clamp(2.15rem, 3vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.06em;
+}
+
+.pricing-price span {
+    font-size: 1.1rem;
+    letter-spacing: 0;
+}
+
+.pricing-period {
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 0.88rem;
+}
+
+.pricing-features {
+    display: grid;
+    gap: 13px;
+    margin: 24px 0;
+}
+
+.pricing-features li {
+    position: relative;
+    padding-left: 25px;
+    color: var(--muted);
+    font-size: 0.94rem;
+}
+
+.pricing-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--accent-strong);
+    font-weight: 800;
+}
+
+.pricing-features .pricing-restriction {
+    color: var(--text);
+    font-size: 0.86rem;
+    font-weight: 600;
+}
+
+.pricing-button {
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+}
+
 .process-item {
     padding: 22px 18px;
 }
@@ -427,6 +542,7 @@ ol {
     .about-grid,
     .service-grid,
     .project-grid,
+    .pricing-grid,
     .process-grid,
     .footer-grid {
         grid-template-columns: 1fr 1fr;
@@ -465,6 +581,7 @@ ol {
 
     .service-grid,
     .project-grid,
+    .pricing-grid,
     .process-grid,
     .footer-grid {
         grid-template-columns: 1fr;
@@ -472,6 +589,10 @@ ol {
 
     .hero-copy h1 {
         font-size: 2.8rem;
+    }
+
+    .pricing-card-featured {
+        transform: none;
     }
 
     .section {
